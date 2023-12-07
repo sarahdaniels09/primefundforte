@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>BitProfilt - Investment and Forex HTML5 Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box {
+		    margin-bottom: 25px;
+		    font-size: 16px;
+		}
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;BitProfilt - Investment and Forex HTML5 Template &rdquo; Documentation</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;BitProfilt - Investment and Forex HTML5 Template &rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 27/06/2022
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#install">How To Use</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<!-- <li><a href="#psdFiles">PSD Files</a></li> -->
+			<li><a href="#features">Genaral Features</a></li>
+			
+			<!-- <li><a href="#">PHP Code Explanation</a> <em class="quiet small">(If your theme uses PHP)</em></li>
+			<li><a href="#">Flash</a>  <em class="quiet small">(If your theme uses Flash)</em></li>
+			<li><a href="#">API Usage</a> <em class="quiet small">(If your theme uses an API)</em></li>
+			<li><a href="#">Any additional unique features that need an overview</a></li> -->
+		</ol>
+
+		<h3 id="install"><strong>A) How To Use</strong> - <a href="#toc">top</a></h3>
+		<p>In order to install our template, simply put the following files in apropriate directory suggested as following.</p>
+		
+		<div class="how-install-box">
+			<h3>CSS</h3>
+			<ul>
+				<li>css/style.css</li>
+				<li>css/responsive.css</li>
+				<li>css/bootstrap.min.css</li>
+				<li>css/owl.carousel.min.css</li>
+			</ul>
+			<h3>JS</h3>
+			<ul>
+				<li>assets/js/jquery.min.js</li>
+				<li>assets/js/popper.min.js</li>
+				<li>assets/js/bootstrap.min.js</li>
+				<li>assets/js/owl.carousel.min.js</li>
+				<li>assets/js/custom.js</li>
+			</ul>
+			<h3>HTML Directory</h3>
+			<ul>
+				<li>index.html</li>
+			</ul>
+		</div>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>An opening <html> tag should appear first and a closing </html> tag should appear at the bottom of the document. Every other bit of HTML should appear between those two tags. The head element is the first element to appear after the opening html tag. Here is the general structure.</p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+<pre>	.theme-title {
+		color: #00294b;
+	} 
+</pre>
+
+		<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+		<p>I.E.</p>
+
+<pre>	body .theme-title {
+		color: #f94d1c;
+	} 
+</pre>
+
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using two CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p> 
+
+		<p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre>	/* === Header Main === */
+
+	some code
+
+	/* === Slider Box Area === */
+	
+	some code
+	
+	/* === Our Service Area === */
+	
+	some code
+
+	some code
+	
+	/* === Furry Friend Area === */
+	
+	some code
+
+	some code
+	
+	/* === Pet Product Area === */
+	
+	some code
+	
+	/* === Footer Main === */
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<p>Any images that are placed within the blog section have 5px worth of padding and a light bluish background. If you would like to edit the display of these images, find the following section in the style sheet:</p>
+
+<pre>	img {
+		display: block;
+		margin: 0px auto;
+	}
+</pre>
+
+		<hr>
+		
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports three Javascript files.</p>
+		
+		<ol>
+			<li>jquery.min.js</li>
+			<li>bootstrap.min.js</li>
+			<li>custom.js</li>
+		</ol>
+		  
+		<ol>
+			<!-- <li>Most of the animation in this site is carried out from the customs scripts. There are a few functions worth looking over.
+<pre>	[some Javascript goes here...along with an general explanation]
+	[some Javascript goes here...along with an general explanation]
+	[some Javascript goes here...along with an general explanation]
+</pre>
+			</li> -->
+		</ol>
+		
+		<hr>
+		
+		<h3 id="features"><strong>E) Genaral Features</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports three Javascript files.</p>
+		<ol>
+			<li>HTML 5</li>
+			<li>CSS 3</li>
+			<li>Jquery</li>
+			<li>Javascript</li>
+			<li>Bootstrap 4</li>
+		</ol>
+		  
+		<ol>
+			<!-- <li>Most of the animation in this site is carried out from the customs scripts. There are a few functions worth looking over.
+<pre>	[some Javascript goes here...along with an general explanation]
+	[some Javascript goes here...along with an general explanation]
+	[some Javascript goes here...along with an general explanation]
+</pre>
+			</li> -->
+		</ol>
+		<!-- <h3 id="psdFiles"><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've included three psds with this theme:</p>
+		
+			<ol>
+				<li>The main layout</li>
+				<li>The header</li>
+				<li>The buttons</li>
+			</ol>
+		
+		<p>If you'd like to change the main image in the header, open "header.psd", make the necessary adjustments, and then save the file as "headerBG.png". Do the same for the buttons.</p> 
+		
+		<p>Include any more specific information about your psds.</p>
+		
+		<hr> -->
+		
+		<p>Once again, thank you so much for purchasing this template.</p> 
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

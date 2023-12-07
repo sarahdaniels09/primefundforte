@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon73a6.ttf?76e8f2df4eeff5f323d3bce29ada3caf") format("truetype"),
+url("../fonts/flaticon73a6.woff?76e8f2df4eeff5f323d3bce29ada3caf") format("woff"),
+url("../fonts/flaticon73a6.woff2?76e8f2df4eeff5f323d3bce29ada3caf") format("woff2"),
+url("../fonts/flaticon73a6.eot?76e8f2df4eeff5f323d3bce29ada3caf#iefix") format("embedded-opentype"),
+url("../fonts/flaticon73a6.svg?76e8f2df4eeff5f323d3bce29ada3caf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-right-down:before {
+    content: "\f101";
+}
+.flaticon-search:before {
+    content: "\f102";
+}
+.flaticon-right-arrow:before {
+    content: "\f103";
+}
+.flaticon-exchange:before {
+    content: "\f104";
+}
+.flaticon-cancel:before {
+    content: "\f105";
+}
+.flaticon-plus:before {
+    content: "\f106";
+}
+.flaticon-symbols:before {
+    content: "\f107";
+}
+.flaticon-tool:before {
+    content: "\f108";
+}
+.flaticon-money:before {
+    content: "\f109";
+}
+.flaticon-symbol:before {
+    content: "\f10a";
+}
+.flaticon-symbols-1:before {
+    content: "\f10b";
+}
+.flaticon-play:before {
+    content: "\f10c";
+}
+.flaticon-star:before {
+    content: "\f10d";
+}
+.flaticon-right-up:before {
+    content: "\f10e";
+}
+.flaticon-half-circumference:before {
+    content: "\f10f";
+}
+.flaticon-more:before {
+    content: "\f110";
+}
+.flaticon-left-arrow:before {
+    content: "\f111";
+}
+.flaticon-loupe:before {
+    content: "\f112";
+}
+.flaticon-download:before {
+    content: "\f113";
+}
+.flaticon-up-arrow:before {
+    content: "\f114";
+}
+.flaticon-play-button:before {
+    content: "\f115";
+}
+.flaticon-read:before {
+    content: "\f116";
+}
+.flaticon-video-camera:before {
+    content: "\f117";
+}
+.flaticon-volume-up:before {
+    content: "\f118";
+}
+.flaticon-language:before {
+    content: "\f119";
+}
+.flaticon-clock:before {
+    content: "\f11a";
+}
+.flaticon-quality:before {
+    content: "\f11b";
+}
+.flaticon-add-user:before {
+    content: "\f11c";
+}
