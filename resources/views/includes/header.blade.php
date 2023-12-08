@@ -103,7 +103,7 @@
                         <div class="menu-area">
                             <div class="logo-box">
                                 <figure class="logo">
-                                    <a href="{{ url('/') }}"><img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" alt=""></a></figure>
+                                    <a href="{{ url('/') }}"><img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt=""></a></figure>
                             </div>
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
