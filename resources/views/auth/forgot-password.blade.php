@@ -14,6 +14,13 @@
 
                 <div class="col-12 col-md-6 col-lg-6 col-sm-10 col-xl-6">
                    
+                <div class="text-center">
+
+                    <a href="/">
+                        <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
+                    </a>
+                    
+                </div>
                     @if(Session::has('message'))
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         {{ Session::get('message') }}
