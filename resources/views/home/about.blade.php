@@ -31,18 +31,14 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="content-box">
                             <div class="sec-title">
-                                <span class="sub-title">About Bullion</span>
-                                <h2>Proud to be the <br />World's Leading <span>Forex Trading</span> Platform</h2>
+                                <span class="sub-title">About Prime Fund Forte</span>
+                                <h2>Your Premium Broker For  <span>Trading Currencies</span>  & Stocks Online</h2>
                             </div>
-                            <p>Optio cumque nihil impedit quo minus id quod maxime place at facere possimus, omnis voluptas assumenda omnis dolors repellendus tempori bus autem quibusdam dolorem eum fugiat quo voluptas.</p>
-                            <div class="inner-box">
-                                <h4>Since</h4>
-                                <h2>2012</h2>
-                                <div class="link-box"><a href="about.html"><span>More In Timeline</span></a></div>
-                            </div>
-                            <p>Impedit quo minus id quod maxime place at facere possimus, omnis voluptas assumenda omnis dolors.</p>
+                            <p>We're absolutely unique and high-tech company, covering several most profitable and relevant business lines of various profitability at once. The main activity of the company is the development and operation of high-tech software and equipment used in various fields of medium- and high-profitable business operating through the Internet world network.</p>
+                           
+                            <p>The company has a wide range of unique financial offers for clients. These offers won't allow to stay indifferent even the most demanding specialists in the field of investment and network business development.</p>
                             <div class="btn-box">
-                                <a href="about.html" class="theme-btn btn-three"><span>Why Bullion</span></a>
+                                <a href="{{ url('register') }}" class="theme-btn btn-three"><span>Get Started</span></a>
                             </div>
                         </div>
                     </div>
@@ -80,12 +76,10 @@
                                         <span class="sub-title">Statements</span>
                                         <h2>Our Mission</h2>
                                     </div>
-                                    <p>Impedit quo minus id quod maxime at perferendis facere possimus, omnis voluptas assumenda aut omnis quibusdam dolorem fugiat.</p>
-                                    <ul class="list-style-one clearfix">
-                                        <li>Et harum quidem rerum facilis est expedita.</li>
-                                        <li>officiis debitis aut rerum.</li>
-                                        <li>Temporibus autem quibusdam et aut.</li>
-                                    </ul>
+                                    <p>
+                                    At Prime Fund Forte, our mission is to empower individuals and businesses worldwide by providing accessible and innovative Forex investment solutions. We aim to deliver exceptional financial services, fostering financial growth, and empowering our clients with the tools and knowledge needed to succeed in the global financial markets. Our commitment lies in building lasting relationships and ensuring transparency, trust, and reliability in every financial decision.
+                                    </p>
+                                   
                                     <div class="link-box">
                                         <div class="icon-box"><img src="{{ asset('temp/prime')}}/assets/images/icons/icon-74.png" alt=""></div>
                                         <button type="button"><span>Our Statements</span></button>
@@ -101,12 +95,8 @@
                                         <span class="sub-title">Statements</span>
                                         <h2>Our Vision</h2>
                                     </div>
-                                    <p>Impedit quo minus id quod maxime at perferendis facere possimus, omnis voluptas assumenda aut omnis quibusdam dolorem fugiat.</p>
-                                    <ul class="list-style-one clearfix">
-                                        <li>Et harum quidem rerum facilis est expedita.</li>
-                                        <li>officiis debitis aut rerum.</li>
-                                        <li>Temporibus autem quibusdam et aut.</li>
-                                    </ul>
+                                    <p>Our vision at Prime Fund Forte is to be a leading global force in Forex investment and financial services, renowned for our integrity, expertise, and client-centric approach. We aspire to set new standards in the financial industry by offering cutting-edge investment solutions, leveraging technology, and continuously adapting to evolving market dynamics. Through our dedication to excellence, we envision becoming the trusted partner for individuals and businesses seeking financial prosperity and success</p>
+                                    
                                     <div class="link-box">
                                         <div class="icon-box"><img src="{{ asset('temp/prime')}}/assets/images/icons/icon-74.png" alt=""></div>
                                         <button type="button"><span>Our Statements</span></button>
@@ -122,11 +112,13 @@
                                         <span class="sub-title">Statements</span>
                                         <h2>Our Value</h2>
                                     </div>
-                                    <p>Impedit quo minus id quod maxime at perferendis facere possimus, omnis voluptas assumenda aut omnis quibusdam dolorem fugiat.</p>
+                                    <p> Our Core Values at Prime Fund Forte</p>
                                     <ul class="list-style-one clearfix">
-                                        <li>Et harum quidem rerum facilis est expedita.</li>
-                                        <li>officiis debitis aut rerum.</li>
-                                        <li>Temporibus autem quibusdam et aut.</li>
+                                        <li> <strong>Integrity:</strong> We uphold the highest ethical standards, transparency, and honesty in all our dealings, ensuring the trust and confidence of our clients and partners.</li>
+                                        <li> <strong>Innovation:</strong> We embrace innovation and continuously seek new ways to improve our services, leveraging technology and expertise to deliver innovative and tailored financial solutions.</li>
+                                        <li> <strong>Client-Centric Approach:</strong> We prioritize our clients' needs, providing personalized guidance, education, and support to help them achieve their financial goals and navigate the complexities of the financial markets.</li>
+                                        <li><strong>Excellence:</strong> We strive for excellence in everything we do, aiming for exceptional quality, professionalism, and performance in our services, operations, and relationships.</li>
+                                        <li> <strong>Responsibility:</strong> We are committed to responsible investing and sustainable practices, contributing positively to the communities we serve and the environment.</li>
                                     </ul>
                                     <div class="link-box">
                                         <div class="icon-box"><img src="{{ asset('temp/prime')}}/assets/images/icons/icon-74.png" alt=""></div>
@@ -144,7 +136,7 @@
 
 
         <!-- chooseus-style-two -->
-        <section class="chooseus-style-two sec-pad">
+        <!-- <section class="chooseus-style-two sec-pad">
             <div class="pattern-layer" style="background-image: url({{ asset('temp/prime')}}/assets/images/shape/shape-20.png);"></div>
             <figure class="image-layer"><img src="assets/images/resource/chooseus-1.png" alt=""></figure>
             <div class="auto-container">
@@ -191,7 +183,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- chooseus-style-two end -->
 
 
@@ -371,7 +363,7 @@
 
 
         <!-- growth-section -->
-        <section class="growth-section">
+        <!-- <section class="growth-section">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -432,12 +424,12 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- growth-section end -->
 
 
         <!-- clients-style-two -->
-        <section class="clients-style-two centred">
+        <!-- <section class="clients-style-two centred">
             <div class="auto-container">
                 <div class="sec-title">
                     <span class="sub-title">Our Partners</span>
@@ -457,7 +449,7 @@
                     <a href="index-2.html"><span>See More</span></a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- clients-style-two end -->
 
 
@@ -555,12 +547,12 @@
         <!-- cta-section -->
         <section class="cta-section centred">
             <div class="pattern-layer" style="background-image: url({{ asset('temp/prime')}}/assets/images/shape/shape-22.png);"></div>
-            <span class="big-text">bullion</span>
+            <span class="big-text">Prime Fund Forte</span>
             <div class="auto-container">
                 <div class="inner-box">
                     <h2>A 360 Trading Experience</h2>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate <br />velit esse quam nihil.</p>
-                    <a href="index-2.html" class="theme-btn"><span>Read More</span></a>
+                    <p>Join us today and experince a breakthrough in your <br /> Finance and Trading journey</p>
+                    <a href="{{ url('/register') }}" class="theme-btn"><span>Get Started</span></a>
                 </div>
             </div>
         </section>

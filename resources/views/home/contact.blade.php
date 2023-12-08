@@ -2,7 +2,7 @@
 
     <!-- page-title -->
     <section class="page-title centred">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" style="background-image: url({{ asset('temp/prime')}}/assets/images/background/page-title.jpg);"></div>
             <div class="line-box">
                 <div class="line-1"></div>
                 <div class="line-2"></div>
@@ -22,7 +22,7 @@
 
 
         <!-- contact-style-two -->
-        <section class="contact-style-two sec-pad">
+       <!--  <section class="contact-style-two sec-pad">
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-49.png);"></div>
             <div class="auto-container">
                 <div class="row clearfix">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- contact-style-two end -->
 
 

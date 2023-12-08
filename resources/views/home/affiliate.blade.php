@@ -7,6 +7,7 @@
                 <div class="line-1"></div>
                 <div class="line-2"></div>
             </div>
+            
             <div class="auto-container">
                 <div class="content-box">
                     <ul class="bread-crumb clearfix">

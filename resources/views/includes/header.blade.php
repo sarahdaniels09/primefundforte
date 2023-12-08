@@ -102,7 +102,8 @@
                     <div class="outer-box">
                         <div class="menu-area">
                             <div class="logo-box">
-                                <figure class="logo"><a href="#"><img src="{{ asset('temp/prime')}}/assets/images/logo.png" alt=""></a></figure>
+                                <figure class="logo">
+                                    <a href="{{ url('/') }}"><img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" alt=""></a></figure>
                             </div>
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -139,9 +140,9 @@
                             <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
                             <div class="clients-box">
                                 <div class="icon-box"><img src="{{ asset('temp/prime')}}/assets/images/icons/icon-6.png" alt=""></div>
-                                <a href="index.html">Client Portal<i class="flaticon-right-down"></i></a>
+                                <a href="{{ url('/login') }}">Client Portal<i class="flaticon-right-down"></i></a>
                             </div>
-                            <div class="btn-box"><a href="#" class="theme-btn btn-one"><span>Open an A/c</span></a></div>
+                            <div class="btn-box"><a href="{{ url('/register') }}" class="theme-btn btn-one"><span>Open an A/c</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -163,9 +164,9 @@
                             <div class="search-box-outer search-toggler"><i class="flaticon-search"></i></div>
                             <div class="clients-box">
                                 <div class="icon-box"><img src="{{ asset('temp/prime')}}/assets/images/icons/icon-6.png" alt=""></div>
-                                <a href="#">Client Portal<i class="flaticon-right-down"></i></a>
+                                <a href="{{ url('/login') }}">Client Portal<i class="flaticon-right-down"></i></a>
                             </div>
-                            <div class="btn-box"><a href="#" class="theme-btn btn-one"><span>Open an A/c</span></a></div>
+                            <div class="btn-box"><a href="{{ url('/register') }}" class="theme-btn btn-one"><span>Open an A/c</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -186,17 +187,17 @@
                     <ul>
                         <li>Chicago 12, Melborne City, USA</li>
                         <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li><a href="mailto:support@primefundforte.org">support@primefundforte.org</a></li>
                     </ul>
                 </div>
                 <div class="social-links">
-                    <ul class="clearfix">
+                    <!-- <ul class="clearfix">
                         <li><a href="#"><span class="fab fa-twitter"></span></a></li>
                         <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
                         <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </nav>
         </div><!-- End Mobile Menu -->
