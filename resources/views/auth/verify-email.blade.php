@@ -55,6 +55,12 @@
                     <div class="bg-white shadow card login-page roundedd border-1 ">
                         <div class="card-body">
 
+                        <div class="text-center">
+                            <a href="/">
+                                <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
+                            </a>
+                        </div>
+                        
                             <form method="POST" action="{{ route('verification.send') }}" class="mt-4 login-form">
                                 @csrf
 

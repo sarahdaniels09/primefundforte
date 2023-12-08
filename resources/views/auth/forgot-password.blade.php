@@ -39,11 +39,9 @@
                         <div class="card-body">
 
                         <div class="text-center">
-
-                        <a href="/">
-                            <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
-                        </a>
-                    
+                            <a href="/">
+                                <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
+                            </a>
                         </div>
 
                             <h4 class="text-center card-title">Password Reset</h4>

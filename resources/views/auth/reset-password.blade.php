@@ -36,6 +36,13 @@
                     
                     <div class="bg-white shadow card login-page roundedd border-1 ">
                         <div class="card-body">
+
+                        <div class="text-center">
+                            <a href="/">
+                                <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
+                            </a>
+                        </div>
+                        
                             <h4 class="text-center card-title">Create new password</h4>
                             <form method="POST" action="{{ route('password.update') }}"  class="mt-4 login-form">
                                  @csrf

@@ -25,6 +25,13 @@
                     
                     <div class="bg-white shadow card login-page roundedd border-1 ">
                         <div class="card-body">
+
+                        <div class="text-center">
+                            <a href="/">
+                                <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
+                            </a>
+                        </div>
+                        
                             <p class="text-center card-title">A 2FA authentication code has been sent to your email, kindly check your email and enter code below to continue.</p>
                             <form method="POST" action="{{ route('twofalogin') }}"  class="mt-4 login-form">
                                  @csrf
