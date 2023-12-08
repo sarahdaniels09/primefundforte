@@ -22,7 +22,7 @@
                                 <div class="col-lg-7">
                                     <div class="text-center">
                                         <a href="/">
-                                           <img src="{{ asset('temp/front')}}/img/pipster_logo_black.png" width="100px" alt="logo">
+                                           <img src="{{ asset('temp/prime')}}/assets/images/p_logo.png" width="150px" alt="logo">
                                         </a>
                                     </div>
                                     <div>
